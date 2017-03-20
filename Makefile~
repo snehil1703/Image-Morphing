@@ -1,0 +1,21 @@
+<<<<<<< HEAD
+all: lab1 lab1_gray
+=======
+all: lab1
+>>>>>>> 3683819f7311d09a7205e812ebb9c502bbc8d94d
+
+lab1: lab1.cpp
+	g++ lab1.cpp -o lab1 -lpng -I.
+
+<<<<<<< HEAD
+lab1_gray: lab1_gray.cpp
+	g++ lab1_gray.cpp -o lab1_gray -lpng -I.
+
+clean:
+	rm lab1
+	rm lab1_gray
+=======
+clean:
+	rm lab1
+
+>>>>>>> 3683819f7311d09a7205e812ebb9c502bbc8d94d

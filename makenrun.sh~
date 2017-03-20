@@ -1,0 +1,6 @@
+#!/bin/bash
+
+make clean
+make
+
+./lab1 gauss.png lena.png
